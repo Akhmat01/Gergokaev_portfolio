@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    background: #3F323F;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 170px;
+
+}
+
+.header_h1 {
+    color: rgb(255, 255, 255);
+}
+
+.header_p {
+    color: aliceblue;
+}
+
+.img {
+
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+}
+
+main {
+    background-color: #E9E9E9;
+    padding-top: 20px;
+
+}
+
+.Objective_text {
+    margin-bottom: 20px;
+}
+
+.Objective h2 {
+    margin-bottom: 20px;
+}
+
+.Experience {
+    margin-top: 80px;
+}
+
+.Experience_block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Experience_text {
+    margin-left: 233px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section:last-child {
+    margin-bottom: 0px;
+
+}
+
+.language {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margin_title {
+    margin-bottom: 20px;
+}
+
+.video {
+    max-width: 100vh;
+    overflow: hidden;
+}
+
+.box_video {
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.video_mp4 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+poster {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.form {
+    background-color: #E5D6D2;
+    padding-bottom: 50px;
+    /* этот отступ уже в самом конце - для кнопки */
+}
+
+
+.form_heading {
+    text-align: center;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 23px;
+    color: #3F313F;
+
+    padding-top: 40px;
+    padding-bottom: 11px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form_title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #3F313F;
+}
+
+.form_input {
+    width: 366px;
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #E5D6D2;
+    font-weight: bold;
+    resize: none;
+}
+
+.button:hover {
+    color: red;
+}
+
+textarea {
+    background-color: #E5D6D2;
+}
+
+.button {
+    background: rgb(125, 12, 12);
+}
+
+footer {
+    background-color: #3F323F;
+}
+
+.contacts {
+    background-color: #3F323F;
+}
+
+.Contacts_list {
+    color: rgb(255, 255, 255);
+}
+
+.contacts_heading {
+    text-align: center;
+    background-color: #3F323F;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contacts_item {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.contacts_link {
+    color: white;
+}
+
+.contacts_link_hover:hover {
+    color: red
+}
+
+.footer_title {
+    background-color: #E5D6D2;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.footer_text {
+    color: #958995;
+
+    text-align: center;
+    padding-bottom: 13px;
+}
